@@ -1,0 +1,19 @@
+
+                <Typography
+                    variant="h2"
+                    gutterBottom
+                    sx={{
+                        ...styles.heading,
+                        fontSize: {
+                            xs: '1.5rem', // Small screen font size
+                            sm: '3.5rem'  // Larger screen font size
+                        }
+                    }}
+                >
+                    Revolutionizing Crowdfunding through Blockchain
+                </Typography>
+
+
+            <FeatureThree />
+            <TeamsTwo />
+            <FAQ />

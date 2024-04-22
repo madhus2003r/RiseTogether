@@ -1,0 +1,46 @@
+/* TODO: Support both dark & light themes */
+
+:root {
+	/* CSS Vars */
+	color: black !important;
+}
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+/* Styling the calendar icon */
+input[type="date"]::-webkit-calendar-picker-indicator {
+  color: black; /* Set the color to black */
+  cursor: pointer;
+}
+
+
+html,
+body {
+	max-width: 100vw;
+	overflow-x: hidden;
+	font-family: 'Arial, sans-serif' !important;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+/* Dark Mode */
+@media (prefers-color-scheme: light) {
+	:root {
+		/* CSS Var Overrides for Dark Mode */
+	}
+
+	html {
+		color-scheme: light;
+	}
+}
+
+.textWrap{
+	text-wrap: nowrap;
+}
