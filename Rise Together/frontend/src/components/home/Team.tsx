@@ -14,76 +14,64 @@ function TeamsTwo() {
       </Box>
       <Grid container spacing={3} justifyContent="center">
         <Grid item xs={12} md={6} lg={3}>
-          <Paper elevation={0} sx={{ p: 2 }}>
-            <Box sx={{ position: 'relative', height: 342, width: '100%', overflow: 'hidden', borderRadius: 10, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+          <Paper elevation={3} sx={{ borderRadius: '20px', backgroundColor: '#FF5722', color: '#FFF' }}>
+            <Box sx={{ position: 'relative', height: 342, width: '100%', overflow: 'hidden', borderRadius: '20px' }}>
               <img
                 src="/1.jpg"
                 alt=""
-                style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '20px' }}
               />
-              <Box sx={{ position: 'absolute', bottom: 20, left: 20, textAlign: 'left' }}>
-                <Typography variant="h6" color="white" fontWeight="bold">
+              <Box sx={{ position: 'absolute', bottom: 20, left: 20, textAlign: 'left', backgroundColor: 'rgba(0, 0, 0, 0.5)', padding: '5px', borderRadius: '5px' }}>
+                <Typography variant="h6" fontWeight="bold" color="white">
                   Madhu S
-                </Typography>
-                <Typography variant="subtitle1" color="white">
-                  Frontend Developer
                 </Typography>
               </Box>
             </Box>
           </Paper>
         </Grid>
         <Grid item xs={12} md={6} lg={3}>
-          <Paper elevation={0} sx={{ p: 2 }}>
-            <Box sx={{ position: 'relative', height: 342, width: '100%', overflow: 'hidden', borderRadius: 10, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+          <Paper elevation={3} sx={{ borderRadius: '20px', backgroundColor: '#03A9F4', color: '#FFF' }}>
+            <Box sx={{ position: 'relative', height: 342, width: '100%', overflow: 'hidden', borderRadius: '20px' }}>
               <img
                 src="./2.jpg"
                 alt=""
-                style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '20px' }}
               />
-              <Box sx={{ position: 'absolute', bottom: 20, left: 20, textAlign: 'left' }}>
-                <Typography variant="h6" color="white" fontWeight="bold">
+              <Box sx={{ position: 'absolute', bottom: 20, left: 20, textAlign: 'left', backgroundColor: 'rgba(0, 0, 0, 0.5)', padding: '5px', borderRadius: '5px' }}>
+                <Typography variant="h6" fontWeight="bold" color="white">
                   Santhosh P
-                </Typography>
-                <Typography variant="subtitle1" color="white">
-                  Backend Developer
                 </Typography>
               </Box>
             </Box>
           </Paper>
         </Grid>
         <Grid item xs={12} md={6} lg={3}>
-          <Paper elevation={0} sx={{ p: 2 }}>
-            <Box sx={{ position: 'relative', height: 342, width: '100%', overflow: 'hidden', borderRadius: 10, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+          <Paper elevation={3} sx={{ borderRadius: '20px', backgroundColor: '#4CAF50', color: '#FFF' }}>
+            <Box sx={{ position: 'relative', height: 342, width: '100%', overflow: 'hidden', borderRadius: '20px' }}>
               <img
                 src="./3.jpg"
                 alt=""
-                style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '20px' }}
               />
-              <Box sx={{ position: 'absolute', bottom: 20, left: 20, textAlign: 'left' }}>
-                <Typography variant="h6" color="white" fontWeight="bold">
+              <Box sx={{ position: 'absolute', bottom: 20, left: 20, textAlign: 'left', backgroundColor: 'rgba(0, 0, 0, 0.5)', padding: '5px', borderRadius: '5px' }}>
+                <Typography variant="h6" fontWeight="bold" color="white">
                   N Deepak
-                </Typography>
-                <Typography variant="subtitle1" color="white">
-                  Full Stack Developer
                 </Typography>
               </Box>
             </Box>
           </Paper>
         </Grid>
         <Grid item xs={12} md={6} lg={3}>
-          <Paper elevation={0} sx={{ p: 2 }}>
-            <Box sx={{ position: 'relative', height: 342, width: '100%', overflow: 'hidden', borderRadius: 10, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+          <Paper elevation={3} sx={{ borderRadius: '20px', backgroundColor: '#FFC107', color: '#FFF' }}>
+            <Box sx={{ position: 'relative', height: 342, width: '100%', overflow: 'hidden', borderRadius: '20px' }}>
               <img
                 src="./4.jpg"
                 alt=""
-                style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '20px' }}
               />
-              <Box sx={{ position: 'absolute', bottom: 20, left: 20, textAlign: 'left' }}>
-                <Typography variant="h6" color="white" fontWeight="bold">
+              <Box sx={{ position: 'absolute', bottom: 20, left: 20, textAlign: 'left', backgroundColor: 'rgba(0, 0, 0, 0.5)', padding: '5px', borderRadius: '5px' }}>
+                <Typography variant="h6" fontWeight="bold" color="white">
                   Bhavana S K
-                </Typography>
-                <Typography variant="subtitle1" color="white">
-                  Frontend Developer
                 </Typography>
               </Box>
             </Box>
@@ -94,4 +82,4 @@ function TeamsTwo() {
   );
 }
 
-export default TeamsTwo;
+export default TeamsTwo
